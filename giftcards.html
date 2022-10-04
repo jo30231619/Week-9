@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="fluid-container" style="background-color: blanchedalmond;">
+
+    <nav class="navbar navbar-expand-sm navbar-warning bg-warning"> 
+        <a class="navbar-brand" href="home.html">Cheesecake Factory</a> <!--links that is style by BS, will be responsive navbar, for desktop or mobile-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <!--data-toggle=collapse plays a role in collapsing the navbar if its in a large screen or mobile -->
+        <!--creating the toggle between the larger version and the mobile version of the navbar-->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown"> <!--this creates dropdown menu when going into mobile mode, button is going to enable this to collapse and expand.-->
+            <ul class="navbar-nav"><!--these are the items that we can select from our navbar, the links-->
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT US</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href=giftcards.html">GIFT CARDS</a>
+                </li>
+                <li class="nav-item dropdown"><!--THIS IS goin to be a drop down and see more items in it-->
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <!--when making toggles, there is more properties to add-->
+                    MENU<!--title-->
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><!--all these dropdowns come with BS, so we dont have to style them-->
+                    <a class="dropdown-item" href="https://www.thecheesecakefactory.com/menu/small-plates-snacks-appetizers">Appetizers</a>
+                    <a class="dropdown-item" href="https://www.thecheesecakefactory.com/menu/fish-seafood-steaks">Entres</a>
+                    <a class="dropdown-item" href="https://www.thecheesecakefactory.com/menu/cheesecakes-desserts">Desserts</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav><br><br>
+    <div class="fluid-container">    
+        <div class="card mb-3">
+            <div class="row g-0" style="background-color: blanchedalmond;">
+              <div class="col-md-5">
+                <img src=https://www.thecheesecakefactory.com/sites/default/files/styles/full_width_xl/public/2021-10/Giftcard%20Photo-updated_Transparent%20Background.png?itok=HuqaOeIr class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-7 text-center">
+                <div class="card-body">
+                    <h3><small class="text-muted">Give the Gift of Cheesecake</small></h3><br>
+                    <h1 class="display-1" class="card-title">The Perfect Gift!</h1><br>
+                    <p class="card-text">Give the gift of The Cheesecake Factory Gift Card.</p><br><br>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-danger" type="button">PURCHASE U.S GIFT CARDS</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="fluid-container">
+            <div class="row">
+                <div class="col-sm text-center">
+                    <div class="card text-bg-warning mb-3" style="background-color:#800020;"><br><br>
+                        <div class="card-body" style="color:white;">
+                        <h5 class="display-3">Purchase Gift Cards for U.S and Puerto Rico</h5><br>
+                        <p class="card-text">U.S. gift cards are redeemable in any of The Cheesecake Factory restaurants in the U.S. & Puerto Rico ONLY.</p><br>
+                            <div class="row">
+                                <div class="col d-flex justify-content-center">  <!--centers cards--> 
+                                    <div class="card" style="width: 24rem;">
+                                        <div class="card-body">
+                                            <h4 class="card-subtitle mb-2 text-muted">Enter Recepient Information</h4><br>
+                                            <input type="text" class="form-control" placeholder="Their Name" aria-label="Their Name"><br>
+                                            <input type="text" class="form-control" placeholder="Your Name" aria-label="Your Name"><br>
+                                            <a href="https://thecheesecakefactory.cashstar.com/store/type?locale=en-us" class="btn btn-warning">Choose A Gift Card Design</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm text-center">
+                    <div class="card text-bg-warning mb-3"><br><br>
+                        <div class="card-body">
+                        <h5 class="display-3">Manage Gift Cards Purchased</h5><br>
+                        </div><br><br>
+                        <div class="row" style="margin-bottom: 50px;">
+                            <div class="col-sm text-center">
+                                <button type="button" class="btn btn-outline-danger">FIND YOUR E-GIFT CARD</button>
+                            </div>
+                            <div class="col-sm text-center">
+                                <button type="button" class="btn btn-outline-danger">REQUEST GIFT CARD ORDER CONFIRMATION</button>
+                            </div>
+                            <div class="col-sm text-center">
+                                <button type="button" class="btn btn-outline-danger">SPECIALTY SUPPORT FOR ONLINE PURCHASE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-sm text-center">
+                <div style="background-color:rgb(60, 60, 60);"><br><br>
+                    <table class="table-dark" class="table align-middle" style="width:100%">
+                        <tr style="text-align: center;">
+                            <th >RESTAURANT INFORMATION</th>
+                            <th>SHOP</th>
+                            <th>ADDITIONAL INFORMATION</th>
+                        </tr>
+                        <tr>
+                            <td>QUESTIONS</td>
+                            <td>AT HOME RETAIL PRODUCTS</td>
+                            <td>GLOBAL DEVELOPMENT</td>
+                        </tr>
+                        <tr>
+                            <td>ABOUT US</td>
+                            <td>GIFT CARDS</td>
+                            <td>INVESTORS</td>
+                        </tr>
+                        <tr>
+                            <td>Corporate Social Responsibility</td>
+                            <td></td>
+                            <td>Employment Policy</td>
+                        </tr>
+                    </table><br><br>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+
+      
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

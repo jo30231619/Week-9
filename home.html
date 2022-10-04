@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="fluid-container">
+
+    <nav class="navbar navbar-expand-sm navbar-warning bg-warning"> 
+        <a class="navbar-brand" href="home.html">Cheesecake Factory</a> <!--links that is style by BS, will be responsive navbar, for desktop or mobile-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <!--data-toggle=collapse plays a role in collapsing the navbar if its in a large screen or mobile -->
+            <!--creating the toggle between the larger version and the mobile version of the navbar-->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown"> <!--this creates dropdown menu when going into mobile mode, button is going to enable this to collapse and expand.-->
+            <ul class="navbar-nav"><!--these are the items that we can select from our navbar, the links-->
+                <li class="nav-item">
+                        <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="giftcards.html">GIFT CARDS</a>
+                </li>
+                <li class="nav-item dropdown"><!--THIS IS goin to be a drop down and see more items in it-->
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <!--when making toggles, there is more properties to add-->
+                        MENU<!--title-->
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><!--all these dropdowns come with BS, so we dont have to style them-->
+                    <a class="dropdown-item" href="https://www.thecheesecakefactory.com/menu/small-plates-snacks-appetizers">Appetizers</a>
+                    <a class="dropdown-item" href="https://www.thecheesecakefactory.com/menu/fish-seafood-steaks">Entres</a>
+                    <a class="dropdown-item" href="https://www.thecheesecakefactory.com/menu/cheesecakes-desserts">Desserts</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-sm">
+            <img src="https://images.dailyhive.com/20220429120307/shutterstock_1412020097.jpg" width=100% height="auto" class="img-fluid">
+            </div>
+        </div>    
+    </div>
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card text-bg-danger">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5fd80073dba154430f784e70/1631139870699-LHGK4VWKOXH9P7DPRDRD/Screen+Shot+2021-09-08+at+12.23.34+PM.png" class="card-img" alt="Cheesecake">
+                    <div class="card-img-overlay">
+                    <h1 class="card-title" style="font-size:2vw">Eat The Food You Love</h1>
+                    <h4 class="card-text" style="font-size:2vw">Our menu has more than 250 dishes, freshly prepared and from scratch, to order,<br> every day.<br>The Cheesecake Factory is a popular chain,<br> but you probably haven't heard all of these interesting facts about it.<br> 
+                        The idea for the chain <br> started in Detroit, Michigan,<br> and it now operates over 200 restaurants worldwide.<br>
+                        Diners can choose from over 30<br>different kinds of cheesecake.</h4>
+                    </div><br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">    
+        <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://onelittleproject.com/wp-content/uploads/2017/03/cinnamon_roll_pancakes_8.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">JOIN US FOR BREAKFAST</h5>
+                  <p class="card-text">Rise and shine and try our delicious breakfast. We Open at 8am and finish breakfast at 11 am. Open every day, our breakfast is the best in town.Rise and shine and try our delicious breakfast. We Open at 8am and finish breakfast at 11 am. Open every day, our breakfast is the best in town.</p>
+                  <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div><br><br>
+    <div class="container">
+        <div class="row" style="margin-bottom:100px;">
+            <div class="col-sm">
+                <div class="card text-center"  style="background-color: linen" style="width: 18rem;">
+                    <div class="card-body" style="border:solid 3px lightsalmon">
+                        <h5 class="card-title">Our Story</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">It all started with a cheesecake recipe…<br></h6>
+                        <a href="about.html" class="btn btn-warning">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm" >
+                <div class="card text-center"  style="background-color: linen;" style="width: 18rem;">
+                    <div class="card-body" style="border:solid 3px lightsalmon">
+                        <h5 class="card-title">Our Menu</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Choose from More than 30 Legendary Flavors of Cheesecake…</h6>
+                        <a href="https://www.thecheesecakefactory.com/menu" class="btn btn-warning">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-sm text-center">
+                <div style="background-color:rgb(60, 60, 60);"><br><br>
+                    <table class="table-dark" class="table align-middle" style="width:100%">
+                        <tr style="text-align: center;">
+                            <th >RESTAURANT INFORMATION</th>
+                            <th>SHOP</th>
+                            <th>ADDITIONAL INFORMATION</th>
+                        </tr>
+                        <tr>
+                            <td>QUESTIONS</td>
+                            <td>AT HOME RETAIL PRODUCTS</td>
+                            <td>GLOBAL DEVELOPMENT</td>
+                        </tr>
+                        <tr>
+                            <td>ABOUT US</td>
+                            <td>GIFT CARDS</td>
+                            <td>INVESTORS</td>
+                        </tr>
+                        <tr>
+                            <td>Corporate Social Responsibility</td>
+                            <td></td>
+                            <td>Employment Policy</td>
+                        </tr>
+                    </table><br><br>
+                </div>
+            </div>
+        </div>
+    </div>     
+      
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

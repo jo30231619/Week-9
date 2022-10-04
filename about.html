@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        .card-title {
+            position:relative;
+            top:80px;
+            font-size: 150px;
+            color: white;
+            font-size:8vw
+        }
+    </style>
+</head>
+<body style="background-color:blanchedalmond;" class="fluid-container">
+
+    <nav class="navbar navbar-expand-sm navbar-warning bg-warning"> 
+        <a class="navbar-brand" href="home.html">Cheesecake Factory</a> <!--links that is style by BS, will be responsive navbar, for desktop or mobile-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <!--data-toggle=collapse plays a role in collapsing the navbar if its in a large screen or mobile -->
+        <!--creating the toggle between the larger version and the mobile version of the navbar-->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown"> <!--this creates dropdown menu when going into mobile mode, button is going to enable this to collapse and expand.-->
+            <ul class="navbar-nav"><!--these are the items that we can select from our navbar, the links-->
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="giftcards.html">GIFT CARDS</a>
+                </li>
+                <li class="nav-item dropdown"><!--THIS IS goin to be a drop down and see more items in it-->
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <!--when making toggles, there is more properties to add-->
+                    MENU<!--title-->
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><!--all these dropdowns come with BS, so we dont have to style them-->
+                    <a class="dropdown-item" href="https://www.thecheesecakefactory.com/menu/small-plates-snacks-appetizers">Appetizers</a>
+                    <a class="dropdown-item" href="https://www.thecheesecakefactory.com/menu/fish-seafood-steaks">Entres</a>
+                    <a class="dropdown-item" href="https://www.thecheesecakefactory.com/menu/cheesecakes-desserts">Desserts</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card text-center">
+                    <div class="card text-bg-danger">
+                        <img src="https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/10/75/44/1jl6R1rQQe6op19JKM9a_0S9A0519.jpg" width=100% height="auto" style="filter:brightness(70%)" class="img-fluid">
+                        <div class="card-img-overlay">
+                        <h1 class="card-title"><br><br>About Us</h1>
+                        </div>
+                    </div>    
+                </div>    
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row"></div>
+                <div class="col-sm text-center">
+                    <div class="card text-bg-warning mb-3" style="background-color:blanchedalmond;">
+                        <div class="card-body">
+                        <h1 class="display-1">How It All Began</h1><br>
+                        <p class="lh-lg" class="card-text">In the 1940s, Evelyn Overton found a recipe in her local Detroit newspaper that inspired her “Original” cheesecake. Everyone loved her recipe so much she decided to open a small bakery, but eventually gave it up to focus on raising her children, David and Renee. She moved her baking equipment to her basement kitchen and continued to sell cakes to some of the best restaurants in town.
+                            <br><br>In 1972, Evelyn and her husband Oscar moved to Los Angeles to try one last time to have their own business. With the last of their savings, they opened The Cheesecake Factory Bakery and began selling Evelyn’s cheesecakes to restaurants throughout L.A.
+                            <br><br>Their son David decided to open a restaurant in Beverly Hills in 1978 to showcase his mother’s cakes. Somehow, he just knew that a restaurant with an extensive dessert menu would be a hit. There was a line out the door on opening day. More than forty years later, many say the line has never stopped!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eW31aSO6PyM"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row"></div>
+                <div class="col-sm">
+                    <div class="card text-bg-warning mb-3" style="background-color:blanchedalmond;">
+                        <div class="card-body">
+                        <h1 class="text-center" class="display-1">Our Food<br>Made From Scratch</h1><br>
+                        <p class="text-center" class="lh-lg" class="card-text">With more than 250 items on our menu, it may be hard to believe that we make things fresh and from scratch in each restaurant – but it’s true! Our prep kitchens are one of the busiest spots in our restaurants, and it’s where the magic begins every day.With more than 250 items on our menu, it may be hard to believe that we make things fresh and from scratch in each restaurant – but it’s true! Our prep kitchens are one of the busiest spots in our restaurants, and it’s where the magic begins every day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-sm text-center">
+                <div style="background-color:rgb(60, 60, 60);"><br><br>
+                    <table class="table-dark" class="table align-middle" style="width:100%">
+                        <tr style="text-align: center;">
+                            <th >RESTAURANT INFORMATION</th>
+                            <th>SHOP</th>
+                            <th>ADDITIONAL INFORMATION</th>
+                        </tr>
+                        <tr>
+                            <td>QUESTIONS</td>
+                            <td>AT HOME RETAIL PRODUCTS</td>
+                            <td>GLOBAL DEVELOPMENT</td>
+                        </tr>
+                        <tr>
+                            <td>ABOUT US</td>
+                            <td>GIFT CARDS</td>
+                            <td>INVESTORS</td>
+                        </tr>
+                        <tr>
+                            <td>Corporate Social Responsibility</td>
+                            <td></td>
+                            <td>Employment Policy</td>
+                        </tr>
+                    </table><br><br>
+                </div>
+            </div>
+        </div>
+    </div>     
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
